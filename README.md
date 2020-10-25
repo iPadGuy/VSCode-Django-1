@@ -3,6 +3,7 @@
 **README**
 
 Ref1: https://code.visualstudio.com/docs/python/tutorial-django
+
 Ref2: https://code.visualstudio.com/docs/containers/quickstart-python
 
 
@@ -12,4 +13,3 @@ Ref2: https://code.visualstudio.com/docs/containers/quickstart-python
 - I encountered a "naive DateTime" error while debugging in the Docker container
     - The Docker container didn't have a timezone configured
     - I added `ENV TZ=America/Toronto` to the Dockerfile, but this makes it the default for everybody, in all timezones.
-    
