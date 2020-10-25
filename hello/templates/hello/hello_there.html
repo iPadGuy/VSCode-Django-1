@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello, Django</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'hello/site.css' %}" />
+    </head>
+    <body>
+        <p class="message">Hello, there {{ name }}!</p>
+        <p>It's {{ date | date:'l, d F, Y' }} at {{ date | time:'H:i:s' }}.</p>
+        <div align="center"><hr style="color: purple; background-color: purple; height: 1.5px; width: 67%;" /></div>
+        <span class="message">Hello, there, {{ name }}!</span> &nbsp; It is {{ date | date:'l, F d, Y' }} at {{ date | time:'H:i:s O T' }}.
+        <div align="center"><hr style="color: blue; background-color: blue; height: 1.5px; width: 67%; margin-top: 25px; margin-bottom: 25px;" /></div>
+    </body>
+</html>

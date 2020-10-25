@@ -1,0 +1,14 @@
+.
+├── .vscode/
+│   └── settings.json
+├── web_project/
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── dirtree0.txt
+├── manage.py*
+└── requirements.txt
+
+2 directories, 9 files

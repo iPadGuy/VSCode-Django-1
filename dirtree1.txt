@@ -1,0 +1,30 @@
+.
+├── hello/
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── .vscode/
+│   └── settings.json
+├── web_project/
+│   ├── __pycache__/
+│   │   ├── __init__.cpython-39.pyc
+│   │   ├── settings.cpython-39.pyc
+│   │   ├── urls.cpython-39.pyc
+│   │   └── wsgi.cpython-39.pyc
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── db.sqlite3
+├── dirtree0.txt
+├── dirtree1.txt
+├── manage.py*
+└── requirements.txt
+
+5 directories, 22 files
