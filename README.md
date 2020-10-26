@@ -1,10 +1,10 @@
-# Visual Studio Code Tutorial for Python
-
 **README**
 
-Ref1: https://code.visualstudio.com/docs/python/tutorial-django
+# Visual Studio Code Tutorial for Python
 
-Ref2: https://code.visualstudio.com/docs/containers/quickstart-python
+### References
+- https://code.visualstudio.com/docs/python/tutorial-django
+- https://code.visualstudio.com/docs/containers/quickstart-python
 
 
 ##### Friday, October 23, 2020
